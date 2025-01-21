@@ -4,9 +4,9 @@ This project is a simple Todo API built with Flask, following a clean architectu
 
 `GET /api/todo/<int:todo_id>`: Retrieve a todo item by ID.
 
-`PUT /api/todo/<int:todo_id>`: Create a new todo item.
+`POST /api/todo`: Create a new todo item.
 
-`PATCH /api/todo/<int:todo_id>`: Update an existing todo item.
+`PUT /api/todo/<int:todo_id>`: Update an existing todo item.
 
 `DELETE /api/todo/<int:todo_id>`: Delete a todo item by ID.
 
